@@ -3,7 +3,7 @@ clear;clc;close all;
 
 %% Path
 expName = "Behav_LD_20230118";
-pathMain = 'C:\Users\User\Documents\Academic\The Evolution of Sleep\Scripts\SleepPaperScript\Draft\data\';
+pathMain = 'C:\Users\User\dataFolder\';
 
 %% Parameters
 
