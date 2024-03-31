@@ -3,12 +3,12 @@ clear;clc;close all;
 
 %% Path
 expName = "Circadian_LD_20220724";
-pathMain = 'C:\Users\User\Documents\Academic\The Evolution of Sleep\Scripts\SleepPaperScript\Draft\data\';
+pathMain = 'C:\Users\User\dataFolder\';
 
 %% Parameters
 
 % General Parameters
-saveData = 1;
+saveData = 0;
 lengthTimeH = 72; % Max full length in hours - data will be cut to fit this time using parameters of "expName" file
 notAnalizedH = 0; % OutData from treatment
 
