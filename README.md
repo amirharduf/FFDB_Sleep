@@ -10,7 +10,7 @@
 **Code name:** SleepAnalyzerNematostella.m
 
 This code is designed to convert pixel-change raw data extracted from video to sleep and sleep architecture. 
-Below are instructions on using the code and setting up the required folder structure.
+Below are the instructions on how using the code and setting up the required folder structure.
 
 ###  Code Usage and folder structure
 * Make sure you have MATLAB installed using the software guidelines
@@ -27,8 +27,8 @@ pathMain: 'C:\Users\User\name-of-main-data-folder\'	#Path to the main directory 
 * Modify the code's general parameters 
 ````
 % General Parameters
-saveData = 0		#Set to 1 to save analysis results in .xlsx file in the pathMain folder
-lengthTimeH = 72	#Specify the length time in hours to analyze; % Max full length in hours - data will be cut to fit this time window
+saveData = 0		#Set to 1 to save analysis results in .xlsx file in the folder of the experiment ("expName")
+lengthTimeH = 72	#Specify the time length in hours to analyze from the beginning
 notAnalizedH = 0;	#hours which are out from analysis due to treatment
 ````
 
@@ -63,7 +63,7 @@ sleepTimeTh = 8;	#Set to 8, Longer than 8 min  is sleep
 
 * Folder structure
 ````
-Ensure your folder structure matches the following layout! (See .xlsx structure from the example data in the demo)
+Ensure your folder structure matches the following layout! (See .xlsx structure from the data example in the demo)
 
 The experiment name will be set as the name of the folder: "myExperimentName"
 
@@ -101,7 +101,7 @@ pathMain: 'C:\Users\User\name-of-main-data-folder\'	#Path to the main directory 
 * Modify the code's general parameters 
 ````
 % General Parameters
-saveData = 0		#Set to 1 to save analysis results in .xlsx file in the pathMain folder
+saveData = 0		#Set to 1 to save analysis results in .xlsx file in the folder of the experiment ("expName")
 ````
 
 * Parameters related to data analysis:
@@ -123,7 +123,7 @@ plotAll = 1; % option to plot all data
 
 * Folder structure
 ````
-Ensure your folder structure matches the following layout! (See .xlsx structure from the example data in the demo)
+Ensure your folder structure matches the following layout! (See .xlsx structure from the data example in the demo)
 
 The experiment name will be set as the name of the folder: "myExperimentName"
 
