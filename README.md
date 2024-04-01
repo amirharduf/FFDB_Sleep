@@ -1,8 +1,8 @@
 # Code instructions & demos
-* [Nematostella sleep code instructions](#nematostella-sleep-code-instructions)
+* [Nematostella sleep code instructions and demo](#nematostella-sleep-code-instructions-and-demo)
 
 
-* [Cassiopea sleep code instructions](#cassiopea-sleep-code-instructions)
+* [Cassiopea sleep code instructions and demo](#cassiopea-sleep-code-instructions-and-demo)
 
 
 # Nematostella sleep code instructions and demo
