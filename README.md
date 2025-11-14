@@ -1,3 +1,21 @@
+
+# Data Availability
+
+Processed data used to generate the figures in *Aguillon & Harduf et al.*, Nature Communications, 2025, are provided as individual `.csv` files.  
+Each file corresponds to a specific figure or panel in the manuscript and follows the same naming convention (e.g., `Fig2b.csv`, `Fig3f.csv`).  
+
+# Note on Version and Maintenance
+
+This repository contains the behavioral analysis code used in *Aguillon & Harduf et al.*, Nature Communications, 2025.
+
+The scripts reflect the state of our analysis pipeline as it was developed and used several years ago for the behavioral component of the study.  
+During the revision process, additional molecular experiments were performed, but the behavioral code was not updated to match our current standards.
+
+While the overall structure and logic of the analysis remain valid, the codebase itself is considered **archival** and **not actively maintained**.  
+Nonetheless, the main pipeline is fully included and can be readily adapted or rewritten using modern tools and conventions.  
+
+If you wish to reproduce or build upon these analyses, feel free to reach out.
+
 # Code instructions & demos
 * [Nematostella sleep code instructions and demo](#nematostella-sleep-code-instructions-and-demo)
 
