@@ -1,8 +1,8 @@
 
 # Data Availability
 
-Processed data used to generate the figures in *Aguillon & Harduf et al.*, Nature Communications, 2025, are provided as individual `.csv` files.  
-Each file corresponds to a specific figure or panel in the manuscript and follows the same naming convention (e.g., `Fig2b.csv`, `Fig3f.csv`).  
+Processed data used to generate the figures in *Aguillon & Harduf et al.*, Nature Communications, 2025, are provided as individual `.xlsx` files.  
+Each file corresponds to a specific figure, and each sheet to a specific panel. They follow the same naming convention (e.g., `Fig1.xlsx` and inside 'Fig1c', 'Fig1d', etc).  
 
 # Note on Version and Maintenance
 
